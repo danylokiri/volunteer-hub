@@ -1,0 +1,293 @@
+{
+  "users": [
+    {
+      "id": "demo-user-id",
+      "fullName": "Тестовий Користувач",
+      "rating": 4.6,
+      "completedRequests": 7,
+      "isVerified": false,
+      "createdAt": "2025-09-01T10:00:00.000Z",
+      "email": "demo@volunteerhub.local",
+      "roles": [
+        "requester",
+        "volunteer"
+      ]
+    },
+    {
+      "id": "olena-id",
+      "fullName": "Олена Петренко",
+      "rating": 4.9,
+      "completedRequests": 24,
+      "isVerified": true,
+      "createdAt": "2024-01-12T08:30:00.000Z",
+      "email": "olena@volunteerhub.local",
+      "roles": [
+        "requester",
+        "volunteer"
+      ]
+    },
+    {
+      "id": "mykola-id",
+      "fullName": "Микола Іваненко",
+      "rating": 4.2,
+      "completedRequests": 11,
+      "isVerified": false,
+      "createdAt": "2024-05-22T14:00:00.000Z",
+      "email": "mykola@volunteerhub.local",
+      "roles": [
+        "requester",
+        "volunteer"
+      ]
+    },
+    {
+      "id": "admin-user-id",
+      "fullName": "Адміністратор Платформи",
+      "rating": 5,
+      "completedRequests": 0,
+      "isVerified": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "email": "admin@volunteerhub.local",
+      "roles": [
+        "requester",
+        "volunteer",
+        "admin"
+      ]
+    },
+    {
+      "id": "requester-account-id",
+      "fullName": "Замовник Тестовий",
+      "rating": 4.5,
+      "completedRequests": 3,
+      "isVerified": false,
+      "createdAt": "2025-10-01T08:00:00.000Z",
+      "email": "requester@volunteerhub.local",
+      "roles": [
+        "requester",
+        "volunteer"
+      ]
+    },
+    {
+      "id": "volunteer-account-id",
+      "fullName": "Волонтер Тестовий",
+      "rating": 4.7,
+      "completedRequests": 9,
+      "isVerified": false,
+      "createdAt": "2025-10-01T09:00:00.000Z",
+      "email": "volunteer@volunteerhub.local",
+      "roles": [
+        "requester",
+        "volunteer"
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "id": "req-1",
+      "title": "Вигуляти собаку",
+      "description": "Потрібна допомога вигуляти лабрадора 30 хвилин після обіду.",
+      "category": "pets",
+      "status": "open",
+      "latitude": 50.462599999999995,
+      "longitude": 30.5167,
+      "city": "Київ",
+      "district": "Поділ",
+      "address": "вул. Нижній Вал, 15",
+      "locationTitle": "Київ, Поділ — вул. Нижній Вал",
+      "createdByUserId": "olena-id",
+      "assignedVolunteerId": null,
+      "acceptedVolunteerIds": [],
+      "volunteerSlotsMode": "unlimited",
+      "registrationStatus": "open",
+      "createdAt": "2026-04-30T09:15:00.000Z",
+      "updatedAt": "2026-04-30T09:15:00.000Z",
+      "syncStatus": "synced"
+    },
+    {
+      "id": "req-2",
+      "title": "Купити продукти",
+      "description": "Потрібна допомога принести базові продукти з найближчого магазину.",
+      "category": "shopping",
+      "status": "open",
+      "latitude": 50.4471,
+      "longitude": 30.512500000000003,
+      "city": "Київ",
+      "district": "Шевченківський",
+      "address": "вул. Володимирська, 60",
+      "locationTitle": "Київ, Шевченківський — вул. Володимирська",
+      "createdByUserId": "mykola-id",
+      "assignedVolunteerId": null,
+      "acceptedVolunteerIds": [],
+      "volunteerSlotsMode": "limited",
+      "volunteerSlots": 1,
+      "registrationStatus": "open",
+      "createdAt": "2026-04-30T10:00:00.000Z",
+      "updatedAt": "2026-04-30T10:00:00.000Z",
+      "syncStatus": "synced"
+    },
+    {
+      "id": "req-3",
+      "title": "Допомога з ноутбуком",
+      "description": "Не запускається Windows після оновлення.",
+      "category": "tutoring",
+      "status": "in_progress",
+      "latitude": 50.436600000000006,
+      "longitude": 30.5376,
+      "city": "Київ",
+      "district": "Печерськ",
+      "address": "вул. Інститутська, 8",
+      "locationTitle": "Київ, Печерськ — вул. Інститутська",
+      "createdByUserId": "demo-user-id",
+      "assignedVolunteerId": "olena-id",
+      "acceptedVolunteerIds": [
+        "olena-id"
+      ],
+      "volunteerSlotsMode": "unlimited",
+      "registrationStatus": "open",
+      "createdAt": "2026-04-29T12:00:00.000Z",
+      "updatedAt": "2026-04-30T08:00:00.000Z",
+      "syncStatus": "synced"
+    },
+    {
+      "id": "req-4",
+      "title": "Підвезти до лікарні",
+      "description": "Потрібно дістатися до Олександрівської лікарні до 14:00.",
+      "category": "transport",
+      "status": "open",
+      "latitude": 50.4621,
+      "longitude": 30.5195,
+      "city": "Київ",
+      "district": "Шевченківський",
+      "address": "просп. Перемоги, 17 (Олександрівська лікарня)",
+      "locationTitle": "Київ, Шевченківський — Олександрівська лікарня",
+      "createdByUserId": "mykola-id",
+      "assignedVolunteerId": null,
+      "acceptedVolunteerIds": [],
+      "volunteerSlotsMode": "limited",
+      "volunteerSlots": 1,
+      "registrationStatus": "open",
+      "createdAt": "2026-04-30T11:20:00.000Z",
+      "updatedAt": "2026-04-30T11:20:00.000Z",
+      "syncStatus": "synced"
+    },
+    {
+      "id": "req-5",
+      "title": "Принести ліки",
+      "description": "Невелика аптечна закупівля.",
+      "category": "medical",
+      "status": "open",
+      "latitude": 50.3799,
+      "longitude": 30.4883,
+      "city": "Київ",
+      "district": "Голосіївський",
+      "address": "вул. Васильківська, 30",
+      "locationTitle": "Київ, Голосіївський — вул. Васильківська",
+      "createdByUserId": "olena-id",
+      "assignedVolunteerId": null,
+      "acceptedVolunteerIds": [],
+      "volunteerSlotsMode": "limited",
+      "volunteerSlots": 2,
+      "registrationStatus": "open",
+      "createdAt": "2026-04-30T11:35:00.000Z",
+      "updatedAt": "2026-04-30T11:35:00.000Z",
+      "syncStatus": "synced"
+    },
+    {
+      "id": "req-6",
+      "title": "Допомога з прибиранням",
+      "description": "Невелика допомога з прибиранням після ремонту.",
+      "category": "other",
+      "status": "completed",
+      "latitude": 50.5187,
+      "longitude": 30.5036,
+      "city": "Київ",
+      "district": "Оболонський",
+      "address": "просп. Героїв Сталінграда, 6",
+      "locationTitle": "Київ, Оболонський — просп. Героїв Сталінграда",
+      "createdByUserId": "demo-user-id",
+      "assignedVolunteerId": "olena-id",
+      "acceptedVolunteerIds": [
+        "olena-id"
+      ],
+      "volunteerSlotsMode": "unlimited",
+      "registrationStatus": "closed",
+      "createdAt": "2026-04-25T08:00:00.000Z",
+      "updatedAt": "2026-04-26T15:00:00.000Z",
+      "syncStatus": "synced"
+    }
+  ],
+  "responses": [
+    {
+      "id": "res-1",
+      "requestId": "req-1",
+      "volunteerId": "demo-user-id",
+      "message": "Можу вигуляти між 14:00 і 15:00.",
+      "contact": "+380501234567",
+      "status": "pending",
+      "createdAt": "2026-04-30T09:30:00.000Z",
+      "syncStatus": "synced"
+    },
+    {
+      "id": "res-2",
+      "requestId": "req-3",
+      "volunteerId": "olena-id",
+      "message": "Підключусь віддалено через AnyDesk.",
+      "status": "accepted",
+      "createdAt": "2026-04-29T12:30:00.000Z",
+      "syncStatus": "synced"
+    },
+    {
+      "id": "res-3",
+      "requestId": "req-2",
+      "volunteerId": "demo-user-id",
+      "message": "За годину можу занести продукти.",
+      "status": "pending",
+      "createdAt": "2026-04-30T10:30:00.000Z",
+      "syncStatus": "synced"
+    }
+  ],
+  "notifications": [],
+  "auths": [
+    {
+      "userId": "demo-user-id",
+      "email": "demo@volunteerhub.local",
+      "passwordHash": "6ba207b5efd37dca6c037490b18bc8492efd251d7d1cfd62587265cc751c30f0",
+      "passwordSalt": "62bc3fec75c98d508882d50dc9358c70",
+      "createdAt": "2026-05-04T12:09:26.485Z"
+    },
+    {
+      "userId": "olena-id",
+      "email": "olena@volunteerhub.local",
+      "passwordHash": "72ebb1b573f580262a1253a80be951d0894190736bfdcbefd56b26fd339e0df0",
+      "passwordSalt": "ba1abe1e31bd405eb6af3a5e4c730599",
+      "createdAt": "2026-05-04T12:09:26.486Z"
+    },
+    {
+      "userId": "mykola-id",
+      "email": "mykola@volunteerhub.local",
+      "passwordHash": "fdf8670482bf847dfae20d3d74e47577651595765b2cf336407fdb7304af151d",
+      "passwordSalt": "1cc1f986541062a510383e8752760858",
+      "createdAt": "2026-05-04T12:09:26.486Z"
+    },
+    {
+      "userId": "admin-user-id",
+      "email": "admin@volunteerhub.local",
+      "passwordHash": "3a5f2b5ca2f1164a5d9d0c6f94da1527f0523c72ef2daca0373cf4dd073e4d3f",
+      "passwordSalt": "b2be68f5dba423ff956d9cc988a948d6",
+      "createdAt": "2026-05-04T12:09:26.486Z"
+    },
+    {
+      "userId": "requester-account-id",
+      "email": "requester@volunteerhub.local",
+      "passwordHash": "67eceaaba3ae480485631bcd75696315f5b8279a265d18de3c30db0b4a6b94ab",
+      "passwordSalt": "dd3dfe4eb6eabca52ac6ab2ce557440f",
+      "createdAt": "2026-05-04T12:09:26.486Z"
+    },
+    {
+      "userId": "volunteer-account-id",
+      "email": "volunteer@volunteerhub.local",
+      "passwordHash": "dbe8b6891d0381e064ed981f6fd120904a9bf72bf5ae4fbf060179037a5ff5ef",
+      "passwordSalt": "352d293fa676bf8ebb9a35a5ebd02474",
+      "createdAt": "2026-05-04T12:09:26.486Z"
+    }
+  ]
+}

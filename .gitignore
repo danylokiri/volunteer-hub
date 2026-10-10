@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.expo/
+coverage/
+
+# secrets and local data
+.env
+.env.*
+*.db
+
+# misc
+*.log
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
