@@ -4,6 +4,16 @@ A mobile app that connects people who need help with volunteers. A requester pos
 
 > Built as a course project. Authentication is intentionally simple (salted SHA-256 and a user-id session) and is **not** meant for production use.
 
+## Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/login.jpg" alt="Login screen" width="180">
+  <img src="docs/screenshots/requests.jpg" alt="List of help requests" width="180">
+  <img src="docs/screenshots/request-detail.jpg" alt="Request details" width="180">
+  <img src="docs/screenshots/create-request.jpg" alt="Create a request" width="180">
+  <img src="docs/screenshots/notifications.jpg" alt="Notifications" width="180">
+</p>
+
 ## Features
 
 - Create help requests and pick a location on the map
