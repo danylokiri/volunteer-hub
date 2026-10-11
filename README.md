@@ -7,11 +7,11 @@ A mobile app that connects people who need help with volunteers. A requester pos
 ## Screenshots
 
 <p align="center">
-  <img src="docs/screenshots/login.jpg" alt="Login screen" width="180">
-  <img src="docs/screenshots/requests.jpg" alt="List of help requests" width="180">
-  <img src="docs/screenshots/request-detail.jpg" alt="Request details" width="180">
-  <img src="docs/screenshots/create-request.jpg" alt="Create a request" width="180">
-  <img src="docs/screenshots/notifications.jpg" alt="Notifications" width="180">
+  <img src="https://raw.githubusercontent.com/danylokiri/volunteer-hub/assets/screenshots/login.jpg" alt="Login screen" width="180">
+  <img src="https://raw.githubusercontent.com/danylokiri/volunteer-hub/assets/screenshots/requests.jpg" alt="List of help requests" width="180">
+  <img src="https://raw.githubusercontent.com/danylokiri/volunteer-hub/assets/screenshots/request-detail.jpg" alt="Request details" width="180">
+  <img src="https://raw.githubusercontent.com/danylokiri/volunteer-hub/assets/screenshots/create-request.jpg" alt="Create a request" width="180">
+  <img src="https://raw.githubusercontent.com/danylokiri/volunteer-hub/assets/screenshots/notifications.jpg" alt="Notifications" width="180">
 </p>
 
 ## Features
